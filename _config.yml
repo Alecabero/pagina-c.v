@@ -1,0 +1,105 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Alejandro Ezequiel Cabero
+title: Estudiante UNAHUR en Programacion
+email: alecabero93@gmail.com
+website: https://alecabero.github.io/Ale-system/
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+
+github_username:  Alecabero
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+ facebook_username: https://www.facebook.com/profile.php?id=100047960653111
+# flickr_username: jekyll
+#instagram_username: jameswgrant
+linkedin_username: www.linkedin.com/in/alejandro-cabero
+# xing_username: jekyll
+# pinterest_username: jekyll
+#youtube_username: https://www.youtube.com/channel/UCi2wHdPnW3ZQuuBdfBOQJ5g
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+#additional_links:
+#- title: itsgoingto.be
+ # icon: fas fa-globe
+ # url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hola soy Alejandro Cabero, estudio en la UNAHUR tecnicatura en programacion.
+  tengo conocimientos en HTML,CSS,V.B,python y javascript
+
+
+- title: Expriencia # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: E-corp
+        # link_text: boringcompany.com
+        sub_title: Tecnico de campo
+        caption: 2022 - Presente
+        quote: >
+          realizo soporte tecnico migrar pc,realizar cambios y onfiguracion de perifericos y mantenimiento preventivo a diferentes clientes 
+      - layout: left
+        title: Sociedad De Fomento Federal Del Oeste
+        # link_text: boringcompany.com
+        sub_title: Profesor de tecnologia
+        caption: 2020 - Presente
+        quote: >
+        imparto clases de reparacion de pc y introduccion a la computacion y programacion.Tambien realizo mantenimiento de tecnico. 
+      - layout: left
+        title: Grido
+        # link_text: boringcompany.com
+        sub_title: encargado
+        caption: 2014 - 2019
+        quote: >
+        desempeñe roles de despachante,atencion al publico,manejo de caja y resolucion de quejas.
+      - layout: left
+        title: I.C.B.C
+        # link_text: boringcompany.com
+        sub_title: pasante
+        caption: 2012 - 2012
+        quote: >
+        desempeñe tareas de atencion al cliente y derivaciones. 
+  - title: Educacion # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: UNAHUR | UNIVERSIDAD NACIONAL DE HURLINGHAM
+        caption: 2020 - presente
+        sub_title: tecnicatura en programacion
+
+        - layout: left
+        title: ACE Morón Comunidad Educativa
+        caption: 2016 - 2019
+        sub_title: programador en V.B 6.0/reparacion de PC
+         - layout: left
+        title: Secundaria N° 24 “José Manuel Estrada
+        caption: 2009 - 2011
+        sub_title: bachiller
+  
+
+
+
